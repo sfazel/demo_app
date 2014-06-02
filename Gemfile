@@ -37,4 +37,8 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+# need the following to deploy on Heroku
+gem 'rails_12factor', group: :production
 
+# added for Heroku to work properly
+ruby "2.1.1"
